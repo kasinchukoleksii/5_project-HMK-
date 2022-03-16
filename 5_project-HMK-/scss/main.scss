@@ -1,0 +1,74 @@
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0;
+  height: auto;
+  background-image: url("../img/BG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+body html {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+body a {
+  text-decoration: none;
+}
+
+
+// @mixin border-image {
+//   border-image: linear-gradient($gradient);
+//   border-image: -webkit-linear-gradient($gradient);
+//   border-image: -moz-linear-gradient($gradient);
+//   border-image: -o-linear-gradient($gradient);
+//   border-image: -ms-linear-gradient($gradient);
+// }
+
+@import 'header';
+@import 'about';
+@import 'what you get';
+@import 'blog';
+@import 'footer';
+// @import 'media';
+
+// @media screen and (max-width: 1200px) {
+//   #features .shadow_img{
+//     width: 80%;
+//   }
+// }
+//
+// @media screen and (max-width: 980px) {
+//   #header h1 {
+//     padding: 0 70px 0 70px;
+//   }
+//   #header .airsky {
+//     width: 70%;
+//   }
+//   #features .shadow_img {
+//     width: 70%;
+//   }
+//   #features .feature ul {
+//     padding: 25px 100px 25px 100px;
+//   }
+//   #pricing .package .pds_package {
+//     width: 140px;
+//     height: 240px;
+//   }
+//   #pricing .package .sketch_package {
+//     width: 140px;
+//     height: 240px;
+//   }
+//   #pricing .package .full_package {
+//     width: 150px;
+//     height: 280px;
+//   }
+//   #footer .AboutUs {
+//     padding: 50px 50px 50px 50px;
+//   }
+//   #footer .ContactUs {
+//     padding: 50px 50px 50px 50px;
+//   }
+// }
